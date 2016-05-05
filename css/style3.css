@@ -1,0 +1,114 @@
+@media screen and (min-width:481px) and (max-width: 768px){
+	body {
+		position: relative;
+		max-width: 480px;
+		margin: 0 auto;
+		padding-top: 20px;	
+		
+	}
+
+	.icon{
+		float:left;
+		width: 60px;
+		padding-bottom: 10px;
+	}
+
+	nav {	
+		position: absolute;
+		right: 0%;
+		font-size: 1.7rem;
+		line-height: 30px;
+		color: rgb(96,190,174);
+
+	}
+
+	nav > ul {
+		display: inline-block;
+		list-style-type:none;
+		padding:0; 
+		margin:0;
+		}
+	
+	#n1{float:left;padding-right: 10px;}
+	#n2{float:left;padding-right: 10px;}
+	#n3{float:left;padding-right: 10px;}
+	#n4{float:left;padding-right: 10px;}
+	#n5{float:left;padding-right: 10px;}
+
+	aside{display: none;}
+
+	.pic img{
+		height:248px;
+		width: 100%;
+		clear: left;
+	}
+
+	#nd-nav{display: none;}
+
+	#titleA{
+		position: relative;
+		font-size: 1rem;
+		line-height: 1rem;
+		background-color: white;
+		display: block;
+		padding: 10px;
+	}
+
+	#titleB{
+		position: relative;
+		font-size: 1rem;
+		line-height: 1rem;
+		background-color: black;
+		display: block;
+		padding: 10px;
+		color: white;
+	}
+
+	#archives {
+	  display: -webkit-flex;
+	  display: flex;
+	  flex-wrap:wrap;
+	  padding-top: 20px;
+	}
+	
+	.arti-with-pic1 {
+	  -webkit-flex: initial;
+	          flex: initial;
+	  width: 50%;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	}
+	.arti-with-pic2 {
+	  -webkit-flex: none;
+	          flex: none;
+	  width: 50%;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	}
+	.arti-with-pic3 {
+	  -webkit-flex: none;
+	          flex: none;
+	  width: 50%;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	  padding-top: 20px;
+	}
+	.arti-with-pic4 {
+	 -webkit-flex: none;
+	          flex: none;
+	  width: 50%;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	  padding-top: 20px;
+	}
+
+	.title{
+		font-size: 1.8rem;
+		color: rgb(96,190,174);
+	}
+
+	.time{
+		color: #AAA;
+	}
+
+}
